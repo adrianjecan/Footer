@@ -1,0 +1,163 @@
+@font-face {
+            font-family: 'Lato';
+            src: url('fonts/Lato-Regular.ttf') format('truetype');}
+
+
+@media (min-width: 1260px)  {
+    
+
+  li {
+            display: inline;
+             }
+ .container {
+     width: 1230px;
+ 
+            }
+}
+
+/*@media (min-width: 768px)
+{
+    
+    body {
+        font-size: 12px;
+    }
+    
+    .logo_footer img {
+        width: 150px;
+    }
+    
+    .container {
+        width: 970px;
+    }
+    
+}
+
+@media (min-width: 0px)
+{
+    body {
+        font-size: 10px;
+    }
+    
+      .logo_footer img {
+        width: 80px;
+    }
+    
+    .container {
+        width: 750px;
+    }
+    
+    .row-address {
+    clear: left;
+            }   
+}
+*/
+
+body {
+    width: 100%;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    color: #939399;
+    line-height: 1.42857;
+    background-color: #fff;
+}
+
+
+#footer {
+    position: relative;
+    padding-bottom: 15px
+    
+    
+}
+
+.logo_footer {
+    position: absolute;
+    width: 100%;
+    top: 25px;
+}
+
+.logo_footer img {
+    display: block;
+    max-width: 100%;
+    margin: 10px auto;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+
+.container {
+ margin-right: auto;
+ margin-left: auto;
+ padding-left; 15px;
+ padding-right: 15px;
+
+
+}
+
+.social {
+    text-align: right;
+}
+
+.social img {
+    opacity: 0.4;   
+ }
+
+.social img:hover {
+    opacity: 0.2;
+}
+
+
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+ }
+
+ .row-address {
+    clear: both;
+            }   
+.column-left {
+    padding: 0;
+    width: 41.66667%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+ }
+
+
+
+.column-right-offset {
+    padding: 0;
+    width: 41.66667%;
+    margin-left: 16.66667%;
+    float: left;
+    position: relative;
+    text-align: right;
+    }
+
+a {   
+    text-decoration: none;
+    color: inherit;
+    }
+
+a:hover {
+    color: #A64A57;
+        }
+
+p {
+    font-size: 0.9em;
+}
+
+ul {
+    margin-left: 15px;
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+   
+  }
+
+li {
+    margin-right: 15px;
+    margin-bottom: 0px;
+    font-size: 1em;
+}
+
