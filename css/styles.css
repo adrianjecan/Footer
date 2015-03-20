@@ -42,6 +42,7 @@ body {
  margin-left: auto;
  padding-left; 15px;
  padding-right: 15px;
+ max-width: 1230px;
 
 
 }
@@ -113,23 +114,19 @@ li {
     margin-bottom: 0px;
     margin-bottom: 15px;
     font-size: 1em;
+    display: inline;
 }
 
 
-@media (min-width: 1260px)  {
-    
 
-  li {
-            display: inline;
-             }
- .container {
-     width: 1230px;
- 
-            }
-}
 
 @media (max-width: 1259px)
 {
+    
+        li {
+            display: block;
+             }
+    
     .logo_footer img {
         margin: 30px auto;    
     }
@@ -143,6 +140,7 @@ li {
 
 @media (max-width: 992px)
 {
+
 
     
       .logo_footer img {
