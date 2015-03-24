@@ -175,5 +175,21 @@ li {
     .row-address {
     clear: both;
             }  
+            
+    /* Adjustments */
+    .row-address .column-left {
+	float: none;
+	width: 100%;
+}
+	
+.row-address .column-right-offset {
+	float: none;
+	width: 100%;
+	margin-left: 0;
+}
+	
+.row-address .column-right-offset p {
+	text-align: left;
+}
     
 }
